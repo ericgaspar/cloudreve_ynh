@@ -49,8 +49,10 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    url = "https://github.com/cloudreve/cloudreve/releases/download/4.5.0/cloudreve_4.5.0_linux_amd64.tar.gz"
-    sha256 = "8a08e3892cec03c0d22589df4828715e94c9dec1fa762bbe5c9eff993154ccee"
+    amd64.url = "https://github.com/cloudreve/cloudreve/releases/download/4.5.0/cloudreve_4.5.0_linux_amd64.tar.gz"
+    amd64.sha256 = "8a08e3892cec03c0d22589df4828715e94c9dec1fa762bbe5c9eff993154ccee"
+    arm64.url = "https://github.com/cloudreve/cloudreve/releases/download/4.5.0/cloudreve_4.5.0_linux_arm64.tar.gz"
+    arm64.sha256 = "eba4f8a75d1710c4832c98ed4c39e689b2dd025b8fe36f9b49bcf70592dcd3dd"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = ".*_linux_amd64.tar.gz"
