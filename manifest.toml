@@ -69,15 +69,5 @@ ram.runtime = "50M"
 
     [resources.ports]
 
-    #[resources.apt]
-    #packages = "postgresql, redis-server"
-
-    #[resources.database]
-    #type = "postgresql"
-
-
     [resources.apt]
-    packages = "mariadb-server, redis-server"
-
-    [resources.database]
-    type = "mysql"
+    packages = "redis-server"
