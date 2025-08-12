@@ -1,5 +1,6 @@
 [Unit]
 Description=Cloudreve: Self-hosted file management
+Documentation=https://docs.cloudreve.org
 After=network.target
 
 [Service]
@@ -8,9 +9,12 @@ User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
 ExecStart=__INSTALL_DIR__/cloudreve -c __INSTALL_DIR__/conf.ini
+Restart=on-abnormal
+RestartSec=5s
+KillMode=mixed
+#StandardOutput=/var/log/__APP__/__APP__.log
+#StandardError=syslog
 
-### Depending on specificities of your service/app, you may need to tweak these
-### .. but this should be a good baseline
 # Sandboxing options to harden security
 # Details for these options: https://www.freedesktop.org/software/systemd/man/systemd.exec.html
 NoNewPrivileges=yes
