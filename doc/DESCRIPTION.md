@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+Cloudreve enables you to quickly set up a cloud storage system that serves both public and private needs. Cloudreve supports different cloud storage platforms at its core, and users don't need to worry about the physical storage method during actual use. You can use Cloudreve to build a personal cloud drive, file sharing system, or even a public cloud system for small to large organizations.

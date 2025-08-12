@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Cloudreve vous permet de configurer rapidement un système de stockage cloud qui répond à la fois aux besoins publics et privés. Cloudreve prend en charge différentes plateformes de stockage cloud à la base, et les utilisateurs n'ont pas à se soucier de la méthode de stockage physique lors de l'utilisation réelle. Vous pouvez utiliser Cloudreve pour créer un disque cloud personnel, un système de partage de fichiers ou même un système cloud public pour les petites et grandes organisations.
