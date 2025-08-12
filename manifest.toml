@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "cloudreve"
 name = "Cloudreve"
-description.en = "Self-hosted file management and sharing system, supports multiple storage providers "
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.en = "Self-hosted file management and sharing system, supports multiple storage providers"
+description.fr = "Système de gestion et de partage de fichiers auto-hébergé, prenant en charge plusieurs fournisseurs de stockage"
 
 version = "4.5.0~ynh1"
 
